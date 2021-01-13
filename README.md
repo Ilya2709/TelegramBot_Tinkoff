@@ -1,1 +1,1 @@
-# TelegramBot_Tinkoff
+# TelegramBot_Tinkoff - Телеграм Бот + АПИ Тинькоф
