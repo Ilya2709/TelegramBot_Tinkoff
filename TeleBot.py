@@ -1,13 +1,12 @@
-# Токен для API Тиньков - t.5fl1FRfKzymwtFOZq8NoNdsHUuaXX_oz-7LUVdQIOcD9GsuTcoZQKrm540JqT2dFxEyeWq1662ZQls3PA5kXsw
-# Название бота - Котировки / username - KotirovkiTinkof_bot / Токен - 1367237250:AAGMvDhH2ag4F4NBWEMSxi-upZDvdoJ2jFA
+
 import tinvest
 import telebot
 
-token = 't.5fl1FRfKzymwtFOZq8NoNdsHUuaXX_oz-7LUVdQIOcD9GsuTcoZQKrm540JqT2dFxEyeWq1662ZQls3PA5kXsw'
+token = ''
 client = tinvest.SyncClient(token)
 api = tinvest.PortfolioApi(client)
 
-bot = telebot.TeleBot('1367237250:AAGMvDhH2ag4F4NBWEMSxi-upZDvdoJ2jFA');
+bot = telebot.TeleBot('');
 
 names = ("Название бумаги", "Цена бумаги", "Кол-во в портфели", "Тиккер")
 name_paper = ("Газпром нефть", "Татнефть","Тинькофф Вечный портфель USD0","Доллар США")
@@ -48,16 +47,15 @@ bot.polling(none_stop=True, interval=0)
 
 
 """"
-# Токен для API Тиньков - t.5fl1FRfKzymwtFOZq8NoNdsHUuaXX_oz-7LUVdQIOcD9GsuTcoZQKrm540JqT2dFxEyeWq1662ZQls3PA5kXsw
-# Название бота - Котировки / username - KotirovkiTinkof_bot / Токен - 1367237250:AAGMvDhH2ag4F4NBWEMSxi-upZDvdoJ2jFA
+
 import tinvest
 import telebot
 
-token = 't.5fl1FRfKzymwtFOZq8NoNdsHUuaXX_oz-7LUVdQIOcD9GsuTcoZQKrm540JqT2dFxEyeWq1662ZQls3PA5kXsw'
+token = ''
 client = tinvest.SyncClient(token)
 api = tinvest.PortfolioApi(client)
 
-bot = telebot.TeleBot('1367237250:AAGMvDhH2ag4F4NBWEMSxi-upZDvdoJ2jFA');
+bot = telebot.TeleBot('');
 
 names = ("Название бумаги", "Цена бумаги", "Кол-во в портфели", "Тиккер")
 name_paper = ("Газпром нефть", "Татнефть","Тинькофф Вечный портфель USD0","Доллар США")
